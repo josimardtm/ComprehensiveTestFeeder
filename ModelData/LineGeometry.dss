@@ -1,0 +1,106 @@
+// LIne geometry definitions for comprehensive test feeder
+// From: Roger Dugan
+// Oct-2018
+
+New LineGeometry.parallelLineGeoFor_UG-2_UG-1 nconds= 7 nphases= 6
+ ~ cond= 1 cncable= 1/0_D1_AA_D1_CN_D1_1/3_D1_N x= 6 h= -46 units= in
+ ~ cond= 2 cncable= 1/0_D1_AA_D1_CN_D1_1/3_D1_N x= 0 h= -46 units= in
+ ~ cond= 3 cncable= 1/0_D1_AA_D1_CN_D1_1/3_D1_N x= 12 h= -46 units= in
+ ~ cond= 4 cncable= 2/0_D1_AA_D1__D1_CN_D1_1/3_D1_N x= 6 h= -40 units= in
+ ~ cond= 5 cncable= 2/0_D1_AA_D1__D1_CN_D1_1/3_D1_N x= 0 h= -40 units= in
+ ~ cond= 6 cncable= 2/0_D1_AA_D1__D1_CN_D1_1/3_D1_N x= 12 h= -40 units= in
+ ~ cond= 7 wire= 1/0_D1_HdCu x= 18 h= -40 units= in
+ ~ reduce=y
+New LineGeometry.parallelLineGeoFor_OH-2_OH-1 nconds= 7 nphases= 6
+ ~ cond= 1 wire= #2/0_D1_ACSR_D1_6/1 x= 30 h= 348 units= in
+ ~ cond= 2 wire= #2/0_D1_ACSR_D1_6/1 x= 0 h= 348 units= in
+ ~ cond= 3 wire= #2/0_D1_ACSR_D1_6/1 x= 84 h= 348 units= in
+ ~ cond= 4 wire= #1/0_D1_ACSR_D1_6/1 x= 30 h= 396 units= in
+ ~ cond= 5 wire= #1/0_D1_ACSR_D1_6/1 x= 0 h= 396 units= in
+ ~ cond= 6 wire= #1/0_D1_ACSR_D1_6/1 x= 84 h= 396 units= in
+ ~ cond= 7 wire= #1/0_D1_ACSR_D1_6/1 x= 48 h= 300 units= in
+ ~ reduce=y
+New LineGeometry.p1/0_D1_AA_D1_Full_D1_Neutral_550 nconds= 1 nphases= 1
+ ~ cond= 1 cncable= 1/0_D1_AA_D1_Full_D1_Neutral x= 0 h= -40 units= in
+ ~ reduce=y
+New LineGeometry.pp2/0_D1_-_D1_7_D1_Str_n#2/0_D1_ACSR_D1_6/1_555_AB nconds= 3 nphases= 2
+ ~ cond= 1 wire= 2/0_D1_-_D1_7_D1_Str x= 0 h= 300 units= in
+ ~ cond= 2 wire= 2/0_D1_-_D1_7_D1_Str x= 0.534 h= 300 units= in
+ ~ cond= 3 wire= #2/0_D1_ACSR_D1_6/1 x= 0.267 h= 299.589 units= in
+ ~ reduce=y
+New LineGeometry.pp2/0_D1_-_D1_7_D1_Str_n#2_D1_ACSR_D1_7/1_555_AB nconds= 3 nphases= 2
+ ~ cond= 1 wire= 2/0_D1_-_D1_7_D1_Str x= 0 h= 300 units= in
+ ~ cond= 2 wire= 2/0_D1_-_D1_7_D1_Str x= 0.534 h= 300 units= in
+ ~ cond= 3 wire= #2_D1_ACSR_D1_7/1 x= 0.267 h= 299.589 units= in
+ ~ reduce=y
+New LineGeometry.pppn#1/0_D1_ACSR_D1_6/1_500_BAC nconds= 4 nphases= 3
+ ~ cond= 1 wire= #1/0_D1_ACSR_D1_6/1 x= 30 h= 348 units= in
+ ~ cond= 2 wire= #1/0_D1_ACSR_D1_6/1 x= 0 h= 348 units= in
+ ~ cond= 3 wire= #1/0_D1_ACSR_D1_6/1 x= 84 h= 348 units= in
+ ~ cond= 4 wire= #1/0_D1_ACSR_D1_6/1 x= 48 h= 300 units= in
+ ~ reduce=y
+New LineGeometry.2/0_D1_AA_D1__D1_CN_D1_1/3_D1_N_n1/0_D1_HdCu_545 nconds= 2 nphases= 1
+ ~ cond= 1 cncable= 2/0_D1_AA_D1__D1_CN_D1_1/3_D1_N x= 0 h= -40 units= in
+ ~ cond= 2 wire= 1/0_D1_HdCu x= 6 h= -40 units= in
+ ~ reduce=y
+New LineGeometry.ppp2/0_D1_-_D1_7_D1_Str_n#2/0_D1_ACSR_D1_6/1_560_ABC nconds= 4 nphases= 3
+ ~ cond= 1 wire= 2/0_D1_-_D1_7_D1_Str x= 0 h= 300 units= in
+ ~ cond= 2 wire= 2/0_D1_-_D1_7_D1_Str x= 0.267 h= 300.463 units= in
+ ~ cond= 3 wire= 2/0_D1_-_D1_7_D1_Str x= 0.534 h= 300 units= in
+ ~ cond= 4 wire= #2/0_D1_ACSR_D1_6/1 x= 0.267 h= 299.589 units= in
+ ~ reduce=y
+New LineGeometry.ppp2/0_D1_-_D1_7_D1_Str_n#2/0_D1_ACSR_D1_6/1_4/0_D1_Quadraplex_ABC nconds= 4 nphases= 3
+ ~ cond= 1 wire= 2/0_D1_-_D1_7_D1_Str x= 0 h= 300 units= in
+ ~ cond= 2 wire= 2/0_D1_-_D1_7_D1_Str x= 0.4608 h= 300.798 units= in
+ ~ cond= 3 wire= 2/0_D1_-_D1_7_D1_Str x= 0.922 h= 300 units= in
+ ~ cond= 4 wire= #2/0_D1_ACSR_D1_6/1 x= 0.461 h= 299.418 units= in
+ ~ reduce=y
+New LineGeometry.ppn#1/0_D1_ACSR_D1_6/1_510_BC nconds= 3 nphases= 2
+ ~ cond= 1 wire= #1/0_D1_ACSR_D1_6/1 x= 0 h= 348 units= in
+ ~ cond= 2 wire= #1/0_D1_ACSR_D1_6/1 x= 84 h= 348 units= in
+ ~ cond= 3 wire= #1/0_D1_ACSR_D1_6/1 x= 48 h= 300 units= in
+ ~ reduce=y
+New LineGeometry.pp1/0_D1_AA_D2__D1_TS_n1/0_D1_HdCu_535_BC nconds= 3 nphases= 2
+ ~ cond= 1 tscable= 1/0_D1_AA_D2__D1_TS x= 0 h= -40 units= in
+ ~ cond= 2 tscable= 1/0_D1_AA_D2__D1_TS x= 6 h= -40 units= in
+ ~ cond= 3 wire= 1/0_D1_HdCu x= 12 h= -40 units= in
+ ~ reduce=y
+New LineGeometry.pn#2_D1_ACSR_D1_6/1_520 nconds= 2 nphases= 1
+ ~ cond= 1 wire= #2_D1_ACSR_D1_6/1 x= 0 h= 360 units= in
+ ~ cond= 2 wire= #2_D1_ACSR_D1_6/1 x= 6 h= 300 units= in
+ ~ reduce=y
+New LineGeometry.ppp#2_D1_ACSR_D1_6/1_505_BAC nconds= 3 nphases= 3
+ ~ cond= 1 wire= #2_D1_ACSR_D1_6/1 x= 30 h= 348 units= in
+ ~ cond= 2 wire= #2_D1_ACSR_D1_6/1 x= 0 h= 348 units= in
+ ~ cond= 3 wire= #2_D1_ACSR_D1_6/1 x= 84 h= 348 units= in
+ ~ reduce=y
+New LineGeometry.ppp#1/0_D1_ACSR_D1_6/1_505_BAC nconds= 3 nphases= 3
+ ~ cond= 1 wire= #1/0_D1_ACSR_D1_6/1 x= 30 h= 348 units= in
+ ~ cond= 2 wire= #1/0_D1_ACSR_D1_6/1 x= 0 h= 348 units= in
+ ~ cond= 3 wire= #1/0_D1_ACSR_D1_6/1 x= 84 h= 348 units= in
+ ~ reduce=y
+New LineGeometry.ppp2/0_D1_AA_D1__D1_CN_D1_1/3_D1_N_n1/0_D1_HdCu_525_ABC nconds= 4 nphases= 3
+ ~ cond= 1 cncable= 2/0_D1_AA_D1__D1_CN_D1_1/3_D1_N x= 0 h= -40 units= in
+ ~ cond= 2 cncable= 2/0_D1_AA_D1__D1_CN_D1_1/3_D1_N x= 6 h= -40 units= in
+ ~ cond= 3 cncable= 2/0_D1_AA_D1__D1_CN_D1_1/3_D1_N x= 12 h= -40 units= in
+ ~ cond= 4 wire= 1/0_D1_HdCu x= 18 h= -40 units= in
+ ~ reduce=y
+New LineGeometry.pppn#2_D1_ACSR_D1_6/1_500_ABC nconds= 4 nphases= 3
+ ~ cond= 1 wire= #2_D1_ACSR_D1_6/1 x= 0 h= 348 units= in
+ ~ cond= 2 wire= #2_D1_ACSR_D1_6/1 x= 30 h= 348 units= in
+ ~ cond= 3 wire= #2_D1_ACSR_D1_6/1 x= 84 h= 348 units= in
+ ~ cond= 4 wire= #2_D1_ACSR_D1_6/1 x= 48 h= 300 units= in
+ ~ reduce=y
+New LineGeometry.ppp1/0_D1_AA_D1_CN_D1_1/3_D1_N_530_ABC nconds= 3 nphases= 3
+ ~ cond= 1 cncable= 1/0_D1_AA_D1_CN_D1_1/3_D1_N x= 0 h= -40 units= in
+ ~ cond= 2 cncable= 1/0_D1_AA_D1_CN_D1_1/3_D1_N x= 6 h= -40 units= in
+ ~ cond= 3 cncable= 1/0_D1_AA_D1_CN_D1_1/3_D1_N x= 12 h= -40 units= in
+ ~ reduce=y
+New LineGeometry.pp1/0_D1_AA_D1_Full_D1_Neutral_540_BC nconds= 2 nphases= 2
+ ~ cond= 1 cncable= 1/0_D1_AA_D1_Full_D1_Neutral x= 0 h= -40 units= in
+ ~ cond= 2 cncable= 1/0_D1_AA_D1_Full_D1_Neutral x= 6 h= -40 units= in
+ ~ reduce=y
+New LineGeometry.pp#2_D1_ACSR_D1_7/1_515_BC nconds= 2 nphases= 2
+ ~ cond= 1 wire= #2_D1_ACSR_D1_7/1 x= 0 h= 348 units= in
+ ~ cond= 2 wire= #2_D1_ACSR_D1_7/1 x= 84 h= 348 units= in
+ ~ reduce=y

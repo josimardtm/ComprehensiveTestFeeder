@@ -1,0 +1,6 @@
+New WireData.#2/0_D1_ACSR_D1_6/1 NormAmps=270 Rac=0.89499998 Runits=mi GMRac=0.0051000002 GMRUnits=ft Radius=0.2235 Radunits=in
+New WireData.#2_D1_ACSR_D1_7/1 NormAmps=180 Rac=1.6900001 Runits=mi GMRac=0.0041800002 GMRUnits=ft Radius=0.15800001 Radunits=in
+New WireData.#1/0_D1_ACSR_D1_6/1 NormAmps=230 Rac=1.12 Runits=mi GMRac=0.0044999998 GMRUnits=ft Radius=0.199 Radunits=in
+New WireData.#2_D1_ACSR_D1_6/1 NormAmps=180 Rac=1.6900001 Runits=mi GMRac=0.0041999999 GMRUnits=ft Radius=0.15800001 Radunits=in
+New WireData.1/0_D1_HdCu NormAmps=310 Rac=0.60699999 Runits=mi GMRac=0.0111 GMRUnits=ft Radius=0.184 Radunits=in
+New WireData.2/0_D1_-_D1_7_D1_Str NormAmps=230 Rac=0.76899999 Runits=mi GMRac=0.01251 GMRUnits=ft Radius=0.207 Radunits=in

@@ -1,0 +1,100 @@
+// Transformer definitions for IEEE Comprehensive test feeder
+// Josimar Tello Maita
+// Oct-2018
+
+// ----- Substation transformer
+New Transformer.T-SUB      Phases=3 Windings=2 XHL=8.000042  wdg=1         bus=115kVSource.1.2.3 conn=delta kV=115       kva=5000      %R=0.5000028 Tap=0.975 wdg=2   bus=701.1.2.3.0 conn=wye   kV=24.9     kva=5000      %R=0.5000028
+//New Transformer.T-SUB      Phases=3 Windings=2 XHL=8.000042  wdg=1         bus=115kVSource.1.2.3 conn=delta kV=112.125       kva=5000      %R=0.5000028  wdg=2   bus=701.1.2.3.0 conn=wye   kV=24.9     kva=5000      %R=0.5000028
+
+// ----- Transformer 1
+New Transformer.T1_A       Phases=1 Windings=2 XHL=2.1000535 wdg=1         bus=703713.1.0          conn=wye   kV=14.4          kva=100       %R=0.50001276 wdg=2   bus=714.1.0        conn=wye   kV=0.12     kva=100       %R=0.50001276
+New Transformer.T1_B       Phases=1 Windings=2 XHL=2.1000535 wdg=1         bus=703713.2.0          conn=wye   kV=14.4          kva=100       %R=0.50001276 wdg=2   bus=714.2.0        conn=wye   kV=0.12     kva=100       %R=0.50001276
+New Transformer.T1_C       Phases=1 Windings=2 XHL=2.1000535 wdg=1         bus=703713.3.0          conn=wye   kV=14.4          kva=100       %R=0.50001276 wdg=2   bus=714.3.0        conn=wye   kV=0.12     kva=100       %R=0.50001276
+
+// ----- Transformer 2
+New Transformer.T2_A       Phases=1 Windings=3 XHL=2.5200644 XHT=2.5200644 XLT=1.6800429         wdg=1      bus=719.1.0     conn=wye      kV=14.4       kva=100 %R=0.50001276     wdg=2      bus=720.1.0  conn=wye      kV=0.12       kva=100      %R=1.0000255 wdg=3      bus=720.0.2  conn=wye kV=0.12 kva=100 %R=1.0000255
+
+// ----- Transformer 3
+New Transformer.T3_A       Phases=1 Windings=2 XHL=1.6999998 wdg=1         bus=727.1.0          conn=wye   kV=14.4          kva=25        %R=0.59999985 wdg=2   bus=728.1.2        conn=delta kV=0.24     kva=25        %R=0.59999985
+New Transformer.T3_B       Phases=1 Windings=2 XHL=1.3999999 wdg=1         bus=727.2.0          conn=wye   kV=14.4          kva=10        %R=0.79999995 wdg=2   bus=728.2.3        conn=delta kV=0.24     kva=10        %R=0.79999995
+New Transformer.T3_C       Phases=1 Windings=2 XHL=1.3999999 wdg=1         bus=727.3.0          conn=wye   kV=14.4          kva=10        %R=0.79999995 wdg=2   bus=728.3.1        conn=delta kV=0.24     kva=10        %R=0.79999995
+
+// ----- Transformer 4
+New Transformer.T4_A       Phases=1 Windings=3 XHL=2.16 XHT=2.16 XLT=1.44  wdg=1      bus=731.1.1007  conn=wye      kV=14.4       kva=50  %R=0.55     wdg=2      bus=732.1.0  conn=wye     kV=0.12       kva=50       %R=1.1 wdg=3      bus=732.0.2  conn=wye kV=0.12 kva=50  %R=1.1
+New Transformer.T4_B       Phases=1 Windings=2 XHL=1.6999998 wdg=1         bus=731.2.1007       conn=wye   kV=14.4          kva=25        %R=0.59999985 wdg=2   bus=732.2.3        conn=delta kV=0.24     kva=25        %R=0.59999985
+New Transformer.T4_C       Phases=1 Windings=2 XHL=1.6999998 wdg=1         bus=731.3.1007       conn=wye   kV=14.4          kva=25        %R=0.59999985 wdg=2   bus=732.3.1        conn=delta kV=0.24     kva=25        %R=0.59999985
+
+// ----- Transformer 5
+New Transformer.T5_B       Phases=1 Windings=2 XHL=1.8       wdg=1         bus=737.2.0         conn=wye   kV=14.4          kva=50        %R=0.54999977 wdg=2   bus=740.2.3        conn=delta kV=0.24     kva=50        %R=0.54999977
+New Transformer.T5_C       Phases=1 Windings=2 XHL=1.8       wdg=1         bus=737.3.0         conn=wye   kV=14.4          kva=50        %R=0.54999977 wdg=2   bus=740.3.1        conn=delta kV=0.24     kva=50        %R=0.54999977
+
+// ----- Transformer 6
+New Transformer.T6_B       Phases=1 Windings=3 XHL=2.1599998 XHT=2.1599998 XLT=1.4399999         wdg=1      bus=738.2.0     conn=wye      kV=14.4       kva=50  %R=0.54999977     wdg=2      bus=739.2.0  conn=wye      kV=0.12       kva=50       %R=1.0999995 wdg=3      bus=739.0.3  conn=wye kV=0.12 kva=50  %R=1.0999995
+New Transformer.T6_C       Phases=1 Windings=2 XHL=1.8       wdg=1         bus=738.3.0          conn=wye   kV=14.4          kva=50        %R=0.54999977 wdg=2   bus=739.3.1        conn=delta kV=0.24     kva=50        %R=0.54999977
+
+// ----- Transformer 7
+New Transformer.T7_A       Phases=1 Windings=2 XHL=2.1000535 wdg=1         bus=742.1.1010      conn=wye   kV=14.4          kva=100       %R=0.50001276 wdg=2   bus=743.1.2        conn=delta kV=0.24     kva=100       %R=0.50001276
+New Transformer.T7_B       Phases=1 Windings=2 XHL=2.1000535 wdg=1         bus=742.2.1010      conn=wye   kV=14.4          kva=100       %R=0.50001276 wdg=2   bus=743.2.3        conn=delta kV=0.24     kva=100       %R=0.50001276
+New Transformer.T7_C       Phases=1 Windings=2 XHL=2.1000535 wdg=1         bus=742.3.1010      conn=wye   kV=14.4          kva=100       %R=0.50001276 wdg=2   bus=743.3.1        conn=delta kV=0.24     kva=100       %R=0.50001276
+
+// ----- Transformer 8
+New Transformer.T8_A       Phases=1 Windings=2 XHL=1.7 wdg=1         bus=747.1.1021      conn=wye   kV=14.4          kva=25        %R=0.6 wdg=2   bus=748.1.2        conn=delta kV=0.24     kva=25        %R=0.6
+New Transformer.T8_B       Phases=1 Windings=3 XHL=2.16 XHT=2.16 XLT=1.44         wdg=1      bus=747.2.1021 conn=wye      kV=14.4       kva=50  %R=0.55     wdg=2      bus=748.2.0  conn=wye      kV=0.12       kva=50       %R=1.1 wdg=3      bus=748.0.3  conn=wye kV=0.12 kva=50  %R=1.0999995
+New Transformer.T8_C       Phases=1 Windings=2 XHL=1.7 wdg=1         bus=747.3.1021      conn=wye   kV=14.4          kva=25        %R=0.6 wdg=2   bus=748.3.1        conn=delta kV=0.24     kva=25        %R=0.6
+
+// ----- Transformer 9
+New Transformer.T9         Phases=3 Windings=2 XHL=2.5000002 wdg=1         bus=750.1.2.3       conn=delta kV=24.9          kva=500       %R=0.40000004 wdg=2   bus=751.1.2.3      conn=delta kV=0.48     kva=500       %R=0.40000004
+
+// ----- Transformer 10
+New Transformer.T10        Phases=3 Windings=2 XHL=2.5000002 wdg=1         bus=753.1.2.3         conn=delta kV=24.9          kva=500       %R=0.40000004 wdg=2   bus=754.1.2.3.0   conn=wye   kV=34.5     kva=500       %R=0.40000004
+
+// ----- Transformer 11
+New Transformer.T11_AB     Phases=1 Windings=2 XHL=2.1000535 wdg=1         bus=755.1.2         conn=delta kV=34.5          kva=100       %R=0.50001276 wdg=2   bus=756.2.0       conn=wye   kV=0.12     kva=100       %R=0.50001276
+New Transformer.T11_BC     Phases=1 Windings=2 XHL=2.1000535 wdg=1         bus=755.2.3         conn=delta kV=34.5          kva=100       %R=0.50001276 wdg=2   bus=756.3.0       conn=wye   kV=0.12     kva=100       %R=0.50001276
+New Transformer.T11_CA     Phases=1 Windings=2 XHL=2.1000535 wdg=1         bus=755.3.1         conn=delta kV=34.5          kva=100       %R=0.50001276 wdg=2   bus=756.1.0       conn=wye   kV=0.12     kva=100       %R=0.50001276
+
+// ----- Transformer 12
+New Transformer.T12_A      Phases=1 Windings=2 XHL=1.8       wdg=1         bus=758.1.0         conn=wye   kV=14.4          kva=50        %R=0.54999977 wdg=2   bus=759.1.2       conn=delta kV=0.24     kva=50        %R=0.54999977
+
+// ----- Transformer 13
+New Transformer.T13_AB     Phases=1 Windings=2 XHL=1.8       wdg=1         bus=761.1.2          conn=delta kV=24.9          kva=50        %R=0.54999977 wdg=2   bus=762.1.2       conn=delta kV=0.48     kva=50        %R=0.54999977
+New Transformer.T13_CA     Phases=1 Windings=2 XHL=1.8       wdg=1         bus=761.3.1          conn=delta kV=24.9          kva=50        %R=0.54999977 wdg=2   bus=762.3.1       conn=delta kV=0.48     kva=50        %R=0.54999977
+
+// ----- Transformer 14
+New Transformer.T14_AB     Phases=1 Windings=2 XHL=1.6999998 wdg=1         bus=763.1.2         conn=delta kV=24.9          kva=25        %R=0.59999985 wdg=2   bus=764.1.2       conn=delta kV=0.24     kva=25        %R=0.59999985
+New Transformer.T14_CA     Phases=1 Windings=3 XHL=2.1599998 XHT=2.1599998 XLT=1.4399999         wdg=1      bus=763.3.1    conn=delta    kV=24.9       kva=50  %R=0.54999977     wdg=2      bus=764.3.0 conn=wye      kV=0.12       kva=50       %R=1.0999995 wdg=3      bus=764.0.1 conn=wye kV=0.12 kva=50  %R=1.0999995
+
+// ----- Transformer 15
+New Transformer.T15        Phases=3 Windings=2 XHL=2.5000002 wdg=1         bus=768.1.2.3       conn=delta kV=12.47         kva=500       %R=0.40000004 wdg=2   bus=770.1.2.3     conn=delta kV=0.24     kva=500       %R=0.40000004
+
+// ----- Transformer 16
+New Transformer.T16_AB     Phases=1 Windings=2 XHL=2.1000535 wdg=1         bus=707.1.2          conn=delta kV=12.47         kva=100       %R=0.50001276 wdg=2   bus=708.1.2       conn=delta kV=0.24     kva=100       %R=0.50001276
+
+// ----- Transformer 17
+New Transformer.T17_BC     Phases=1 Windings=2 XHL=2.1000535 wdg=1         bus=709.2.3          conn=delta kV=12.47         kva=100       %R=0.5    wdg=2   bus=710.2.0       conn=wye   kV=0.12     kva=100       %R=0.5
+
+// ----- Transformer 18
+New Transformer.T18_BC     Phases=1 Windings=3 XHL=2.5200644 XHT=2.5200644 XLT=1.6800429         wdg=1      bus=711.2.3     conn=delta    kV=12.47      kva=100 %R=0.50001276     wdg=2      bus=712.2.0 conn=wye      kV=0.12       kva=100      %R=1.0000255 wdg=3      bus=712.0.3 conn=wye kV=0.12 kva=100 %R=1.0000255
+
+// ----- Transformer 19
+New Transformer.T19_BC     Phases=1 Windings=2 XHL=2.1000535 wdg=1         bus=771.2.3         conn=delta kV=24.9          kva=100       %R=0.50001276 wdg=2   bus=772.2.0       conn=wye   kV=0.12     kva=100       %R=0.50001276
+New Transformer.T19_CA     Phases=1 Windings=2 XHL=2.1000535 wdg=1         bus=771.3.1         conn=delta kV=24.9          kva=100       %R=0.50001276 wdg=2   bus=772.3.0       conn=wye   kV=0.12     kva=100       %R=0.50001276
+
+// ----- Transformer 20
+New Transformer.T20        Phases=3 Windings=2 XHL=2.5000002 wdg=1         bus=765.1.2.3.1015  conn=wye   kV=24.9       kva=500       %R=0.40000004 wdg=2   bus=766.1.2.3     conn=delta kV=12.47    kva=500       %R=0.40000004
+
+// ----- Transformer 21
+New Transformer.T21        Phases=3 Windings=2  XHL=2.5  wdg=1    bus=704717.2.1.3.0   conn=wye   kV=24.9  kva=500 %R=0.4      wdg=2   bus=705.2.1.3     conn=delta kV=12.47    kva=500       %R=0.4
+
+// ----- Transformer 22
+New Transformer.T22_AB     Phases=1 Windings=2 XHL=1.6999998 wdg=1         bus=768.1.2         conn=delta kV=12.47         kva=25        %R=0.59999985 wdg=2   bus=769.1.2       conn=delta kV=0.24     kva=25        %R=0.59999985
+New Transformer.T22_BC     Phases=1 Windings=3 XHL=2.1599998 XHT=2.1599998 XLT=1.4399999         wdg=1      bus=768.2.3    conn=delta    kV=12.47      kva=50  %R=0.54999977     wdg=2      bus=769.2.0 conn=wye      kV=0.12       kva=50       %R=1.0999995 wdg=3      bus=769.0.3 conn=wye kV=0.12 kva=50  %R=1.0999995
+New Transformer.T22_CA     Phases=1 Windings=2 XHL=1.6999998 wdg=1         bus=768.3.1         conn=delta kV=12.47         kva=25        %R=0.59999985 wdg=2   bus=769.3.1       conn=delta kV=0.24     kva=25        %R=0.59999985
+
+// ----- Transformer 23
+New Transformer.T23_B      Phases=1 Windings=2 XHL=2.1000535 wdg=1         bus=729.2.0         conn=wye   kV=14.4          kva=100       %R=0.50001276 wdg=2   bus=730.2.3       conn=delta kV=0.24     kva=100       %R=0.50001276
+
+// ----- Transformer 24
+New Transformer.T24_A      Phases=1 Windings=2 XHL=1.3999999 wdg=1         bus=714.1.0            conn=wye   kV=0.12          kva=10        %R=0.79999995 wdg=2   bus=716.1.3       conn=delta kV=0.48     kva=10        %R=0.79999995
+New Transformer.T24_B      Phases=1 Windings=2 XHL=1.3999999 wdg=1         bus=714.2.0            conn=wye   kV=0.12          kva=10        %R=0.79999995 wdg=2   bus=716.2.1       conn=delta kV=0.48     kva=10        %R=0.79999995
+New Transformer.T24_C      Phases=1 Windings=2 XHL=1.3999999 wdg=1         bus=714.3.0            conn=wye   kV=0.12          kva=10        %R=0.79999995 wdg=2   bus=716.3.2       conn=delta kV=0.48     kva=10        %R=0.79999995

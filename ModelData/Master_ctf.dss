@@ -1,0 +1,51 @@
+// Master file for Comprehensive test feeder system
+// Josimar Tello Maita
+// Oct-2018
+
+// ----- Creating circuit object ----------------------------------------//
+Clear
+New Circuit.115kVSource
+
+// ----- Redirecting source files ---------------------------------------//
+Redirect Vsource.dss
+Redirect Transformers.dss
+Redirect RegTx.dss
+Redirect RegControl.dss
+Redirect CNData.dss
+Redirect TSData.dss
+Redirect WireData.dss
+Redirect LineGeometry.dss
+Redirect Lines.dss
+Redirect Reactor.dss
+Redirect Loads.dss
+Redirect Capacitor.dss
+Redirect Generator.dss
+Redirect bases.dss
+Redirect PvSystems.dss
+//Redirect Monitors.dss
+
+// ----- Bus coordinates ------------------------------------------------//
+//buscoords buscoords.dss
+
+// ----- Energy meter ---------------------------------------------------//
+//New energymeter.m1 line.UG-2
+//New EnergyMeter.Main Transformer.T-SUB 1
+
+// ----- Settings -------------------------------------------------------//
+Set EarthModel = Carson
+Set %growth=0
+Set maxiterations =10000
+Set Maxcontroliter =1000
+
+// ----- Solving Load Flow ----------------------------------------------///
+CalcVoltageBases
+//Solve
+//buscoords buscoords.dss
+
+!-----Fault Current------
+!Edit "Vsource.source" Pu=1
+!set mode=fault
+!Solve
+!Show faults
+!----------------------------
+

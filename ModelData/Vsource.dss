@@ -1,0 +1,8 @@
+// Voltage source definition for IEEE Comprehensive test feeder
+// From: Roger Dugan
+// Sept-2018
+
+Edit "Vsource.source" Bus1=115kVSource.1.2.3 Phases=3 Angle=0 Pu=1 BaseKv=115
+~ R1= 1.48  X1=11.6  R0 = 4.73  X0=21.2 
+! Use small values for impedance to obtain 115,00 kV in the source: 
+!~ R1=9.9999997e-05 X1=9.9999997e-05 R0=9.9999997e-05 X0=9.9999997e-05 

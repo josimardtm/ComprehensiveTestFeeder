@@ -1,0 +1,8 @@
+// Capacitor definitions for IEEE comprehensive test feeder
+
+New Capacitor.Cap_D1_2 phases=3 bus1=755.1.2.3 kV=34.5 kvar=150 enabled=Yes
+New Capacitor.Cap_D1_4_AB phases=1 bus1=768.1 bus2=768.2 kV=12.47 kvar=50 enabled=Yes
+New Capacitor.Cap_D1_4_CA phases=1 bus1=768.3 bus2=768.1 kV=12.47 kvar=50 enabled=Yes
+New Capacitor.Cap_D1_4_BC phases=1 bus1=768.2 bus2=768.3 kV=12.47 kvar=50 enabled=Yes
+New Capacitor.Cap_D1_1 phases=3 bus1=736.1.2.3 kV=24.9 kvar=300 enabled=Yes
+New Capacitor.Cap_D1_3 phases=3 bus1=760.1.2.3 kV=24.9 kvar=300 enabled=Yes

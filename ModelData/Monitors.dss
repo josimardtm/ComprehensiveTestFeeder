@@ -1,0 +1,7 @@
+nitos// Monitors for Comprehensive test feeder nodes
+// Josimar Tello Maita
+// Oct-2018
+
+// Monitors
+
+New Monitor.tx-sub element=transformer.T-SUB terminal=1 mode=0 Action=save

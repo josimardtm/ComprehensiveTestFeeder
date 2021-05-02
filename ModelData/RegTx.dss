@@ -1,0 +1,31 @@
+// Automatic regulator definitios for the IEEE Comprehensive test feeder
+// Josimar Tello Maita
+// Oct-2018
+// Regulator transformers
+
+// -----TX Regulator 1
+New Transformer.Reg-1A  Phases=1 Windings=2 XHL=1e-03     wdg=1         bus=701.1.0           conn=wye   kV=14.4        kva=2875.2043  %R=1e-06      wdg=2   bus=702.1.0    conn=wye   kV=14.4   kva=2875.2043 %R=1e-06   NumTaps=320 !MaxTap=1.1   MinTap=0.9
+New Transformer.Reg-1B  Phases=1 Windings=2 XHL=1e-03     wdg=1         bus=701.2.0           conn=wye   kV=14.4        kva=2875.2043  %R=1e-06      wdg=2   bus=702.2.0    conn=wye   kV=14.4   kva=2875.2043 %R=1e-06   NumTaps=320 !MaxTap=1.1   MinTap=0.9
+New Transformer.Reg-1C  Phases=1 Windings=2 XHL=1e-03     wdg=1         bus=701.3.0           conn=wye   kV=14.4        kva=2875.2043  %R=1e-06      wdg=2   bus=702.3.0    conn=wye   kV=14.4   kva=2875.2043 %R=1e-06   NumTaps=320 !MaxTap=1.1   MinTap=0.9
+
+// -----TX Regulator 2
+New Transformer.Reg-2A  Phases=1 Windings=2 XHL=1e-03     wdg=1         bus=735.1            conn=wye   kV=14.4        kva=1437.6022 %R=1e-06      wdg=2   bus=736.1    conn=wye   kV=14.4   kva=1437.6022 %R=1e-06   NumTaps=320    !MaxTap=1.1   MinTap=0.9
+New Transformer.Reg-2B  Phases=1 Windings=2 XHL=1e-03     wdg=1         bus=735.2            conn=wye   kV=14.4        kva=1437.6022 %R=1e-06      wdg=2   bus=736.2    conn=wye   kV=14.4   kva=1437.6022 %R=1e-06   NumTaps=320    !MaxTap=1.1   MinTap=0.9
+New Transformer.Reg-2C  Phases=1 Windings=2 XHL=1e-03     wdg=1         bus=735.3            conn=wye   kV=14.4        kva=1437.6022 %R=1e-06      wdg=2   bus=736.3    conn=wye   kV=14.4   kva=1437.6022 %R=1e-06   NumTaps=320    !MaxTap=1.1   MinTap=0.9
+
+// -----TX Regulator 3
+New Transformer.Reg-3A-1   Phases=1 Windings=2 XHL=1e-03     wdg=1         NumTaps=320 bus=766.1.0   conn=wye kV=7.2         kva=359.97787 %R=1e-06      wdg=2   bus=7661.1.2     conn=delta kV=12.47    kva=359.97787 %R=1e-06   NumTaps=320 !MaxTap=1.1   MinTap=0.9
+New Transformer.Reg-3B-1   Phases=1 Windings=2 XHL=1e-03     wdg=1         NumTaps=320 bus=766.2.0   conn=wye kV=7.2         kva=359.97787 %R=1e-06      wdg=2   bus=7661.2.3     conn=delta kV=12.47    kva=359.97787 %R=1e-06   NumTaps=320 !MaxTap=1.1   MinTap=0.9
+New Transformer.Reg-3C-1   Phases=1 Windings=2 XHL=1e-03     wdg=1         NumTaps=320 bus=766.3.0   conn=wye kV=7.2         kva=359.97787 %R=1e-06      wdg=2   bus=7661.3.1     conn=delta kV=12.47    kva=359.97787 %R=1e-06   NumTaps=320 !MaxTap=1.1   MinTap=0.9
+
+New Transformer.Reg-3A-2   Phases=1 Windings=2 XHL=1e-03     wdg=1         NumTaps=320 bus=7661.1.2   conn=delta kV=12.47         kva=359.97787 %R=1e-06      wdg=2   bus=767.1.0     conn=wye kV=7.2    kva=359.97787 %R=1e-06   NumTaps=320 !MaxTap=1.1   MinTap=0.9
+New Transformer.Reg-3B-2   Phases=1 Windings=2 XHL=1e-03     wdg=1         NumTaps=320 bus=7661.2.3   conn=delta kV=12.47         kva=359.97787 %R=1e-06      wdg=2   bus=767.2.0     conn=wye kV=7.2    kva=359.97787 %R=1e-06   NumTaps=320 !MaxTap=1.1   MinTap=0.9
+New Transformer.Reg-3C-2   Phases=1 Windings=2 XHL=1e-03     wdg=1         NumTaps=320 bus=7661.3.1   conn=delta kV=12.47         kva=359.97787 %R=1e-06      wdg=2   bus=767.3.0     conn=wye kV=7.2    kva=359.97787 %R=1e-06   NumTaps=320 !MaxTap=1.1   MinTap=0.9
+
+// -----TX Regulator 4
+New Transformer.Reg-4A Phases=1 Windings=2 XHL=1e-03     wdg=1         bus=704717.4         conn=wye   kV=14.4        kva=1437.6022 %R=1e-06      wdg=2   bus=718.1    conn=wye   kV=14.4   kva=1437.6022 %R=1e-06   NumTaps=320 !MaxTap=1.1   MinTap=0.9
+
+// -----TX Regulator 5
+New Transformer.Reg-5AB   Phases=1 Windings=2 XHL=1e-3     wdg=1         bus=706.1.2     conn=delta    kV=12.47         kva=500      NumTaps=320 wdg=2   bus=706.1.4     conn=delta kV=1.247    kva=500  NumTaps=320     MaxTap=1   MinTap=-1
+New Transformer.Reg-5BC   Phases=1 Windings=2 XHL=1e-3     wdg=1         bus=706.3.2     conn=delta    kV=12.47         kva=500      NumTaps=320 wdg=2   bus=706.3.5     conn=delta kV=1.247    kva=500  NumTaps=320     MaxTap=1   MinTap=-1
+New Reactor.Jumper Phases=3 Bus1=705.1.2.3 Bus2=706.4.2.5 R=0.0001 X=0

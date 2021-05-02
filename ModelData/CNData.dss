@@ -1,0 +1,12 @@
+New CNData.1/0_D1_AA_D1_CN_D1_1/3_D1_N
+~ NormAmps=202 Rac=0.18371001 Runits=kft
+~ GMRac=0.0111 GMRUnits=ft Radius=0.184 Radunits=in
+~ DiaCable=1.0599999 DiaIns=0.93000001
+~ Rstrand=2.8167002 GmrStrand=0.0021092489 DiaStrand=0.064999968 InsLayer=0.28100002 k=6 EpsR=2.3
+
+New CNData.2/0_D1_AA_D1__D1_CN_D1_1/3_D1_N
+~ NormAmps=230 Rac=0.14564 Runits=kft GMRac=0.0125 GMRUnits=ft Radius=0.20699999 Radunits=in DiaCable=1.1 DiaIns=0.96999997
+~ Rstrand=2.8166668 GmrStrand=0.002109251 DiaStrand=0.065000027 InsLayer=0.278 k=7 EpsR=2.3
+
+New CNData.1/0_D1_AA_D1_Full_D1_Neutral NormAmps=202 Rac=0.18371001 Runits=kft GMRac=0.0111 GMRUnits=ft Radius=0.184 Radunits=in DiaCable=1.0599999 DiaIns=0.93000001
+ ~ Rstrand=2.8166401 GmrStrand=0.0021092489 DiaStrand=0.064999968 InsLayer=0.28100002 k=16 EpsR=2.3

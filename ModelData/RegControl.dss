@@ -1,0 +1,25 @@
+// Automatic regulator definitios for the IEEE Comprehensive test feeder
+// Josimar Tello Maita
+// Oct-2018
+
+// Regulator 1
+New RegControl.Reg-1A Transformer=Reg-1A Winding=2 vReg=123  Band=2.00 CTprim=200 PTratio=120   vLimit=129 R=4.7 X=3.4 delay=15     !TapNum=77    maxtapchange=0
+New RegControl.Reg-1B Transformer=Reg-1B Winding=2 vReg=123  Band=2.00 CTprim=200 PTratio=120   vLimit=129 R=4.7 X=3.4 delay=15     !TapNum=56    maxtapchange=0      
+New RegControl.Reg-1C Transformer=Reg-1C Winding=2 vReg=123  Band=2.00 CTprim=200 PTratio=120   vLimit=129 R=4.7 X=3.4 delay=15     !TapNum=83    maxtapchange=0
+
+// Regulator 2
+New RegControl.Reg-2A Transformer=Reg-2A Winding=2 vReg=124 R=3.6 X=2.8 Band=2.00 CTprim=100 PTratio=120   vLimit=129 delay=21    !TapNum=127    maxtapchange=0
+New RegControl.Reg-2B Transformer=Reg-2B Winding=2 vReg=124 R=3.6 X=2.8 Band=2.00 CTprim=100 PTratio=120   vLimit=129 delay=22    !TapNum=94    maxtapchange=0
+New RegControl.Reg-2C Transformer=Reg-2C Winding=2 vReg=124 R=3.6 X=2.8 Band=2.00 CTprim=100 PTratio=120   vLimit=129 delay=20    !TapNum=160    maxtapchange=0
+
+// Regulator 3
+New RegControl.Reg-3A   transformer=Reg-3A-1    winding=2   bus=767.1   PTratio=60     vreg=122  CTprim=50  Band=2.00   !TapNum=51    maxtapchange=0
+New RegControl.Reg-3B   transformer=Reg-3B-1    winding=2   bus=767.2   PTratio=60     vreg=122  CTprim=50  Band=2.00   !TapNum=-13    maxtapchange=0
+New RegControl.Reg-3C   transformer=Reg-3C-1    winding=2   bus=767.3   PTratio=60     vreg=122  CTprim=50  Band=2.00   !TapNum=16    maxtapchange=0
+
+// Regulator 4
+New RegControl.Reg-4A Transformer=Reg-4A Winding=2 vReg=125 R=1.3 X=0.5 Band=2.00 CTprim=100 PTratio=120   vLimit=129 delay=30    !TapNum=30    maxtapchange=0
+
+// Regulator 5
+New RegControl.Reg-5AB   Transformer=Reg-5AB   Winding=2 vReg=120   Bus=706.1.2   Band=2.00 CTprim=50  PTratio=103.9  vLimit=129 !TapNum=-58    maxtapchange=0 !R=0.7   X=0.1
+New RegControl.Reg-5BC   Transformer=Reg-5BC   Winding=2 vReg=120   Bus=706.2.3   Band=2.00 CTprim=50  PTratio=103.9  vLimit=129 !TapNum=-45   maxtapchange=0  !R=0.7   X=0.1 

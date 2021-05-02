@@ -1,0 +1,18 @@
+// Rotating machines definition for comprehensive test feeder
+// Josimar Tello Maita
+// Oct-2018
+
+// ----- Motor 1
+New Generator.Motor_D1_1 bus1=716.1.2.3 phases=3 conn=delta enabled=yes model=1 kV=0.48 kW=-19.9 kvar=-13.468 Vmaxpu=1.5 Vminpu=0.3
+
+// ----- Motor 2
+New Generator.Motor_D1_2 bus1=762.1.2.3 phases=3 conn=delta enabled=yes model=1 kV=0.48 kW=-44.98 kvar=-26.891 Vmaxpu=1.5 Vminpu=0.3
+
+// ----- Motor 3
+New Generator.Motor_D1_3 bus1=748.1.2.3 phases=3 conn=delta enabled=yes model=1 kV=0.24 kW=-39.477 kvar=-24.465 Vmaxpu=1.5 Vminpu=0.3
+
+// ----- Motor 4
+New Generator.Motor_D1_4 bus1=734.1.2.3 phases=3 conn=delta enabled=yes model=1 kV=0.24 kW=-4.9749 kvar=-3.367 Vmaxpu=1.5 Vminpu=0.3
+
+// ----- Generator 1
+New Generator.Gen bus1=751.1.2.3 phases=3 conn=delta enabled=yes model=1 kV=0.48 kW=149.93 kvar=-90.313 Vmaxpu=1.5 Vminpu=0.3

@@ -1,0 +1,49 @@
+// Transmission line definitions for comprehensive test feeder
+// Josimar Tello Maita
+// Oct-2018
+
+// Parallel Lines
+New Line.UG-2  Bus1= 702.2.1.3.2.1.3.4      Bus2= 703713.2.1.3.5.4.6.7 length= 3000  units= Ft Geometry= parallelLineGeoFor_UG-2_UG-1
+New Line.OH-2  Bus1= 703713.2.1.3.5.4.6.7   Bus2= 704717.2.1.3.5.4.6.7 length= 15000 units= Ft Geometry= parallelLineGeoFor_OH-2_OH-1
+
+// Undergroud Lines
+New Line.UG-4  Bus1= 737.2.3              Bus2= 738.2.3         length= 5000  units= Ft Geometry= pp1/0_D1_AA_D2__D1_TS_n1/0_D1_HdCu_535_BC
+New Line.UG-5  Bus1= 760.1.2.3            Bus2= 761.1.2.3       length= 1500  units= Ft Geometry= ppp2/0_D1_AA_D1__D1_CN_D1_1/3_D1_N_n1/0_D1_HdCu_525_ABC
+New Line.UG-7  Bus1= 718.1                Bus2= 719.1           length= 5280  units= Ft Geometry= p1/0_D1_AA_D1_Full_D1_Neutral_550
+New Line.UG-8  Bus1= 706.1.2.3            Bus2= 707.1.2.3       length= 2500  units= Ft Geometry= ppp1/0_D1_AA_D1_CN_D1_1/3_D1_N_530_ABC
+New Line.UG-9  Bus1= 707.2.3              Bus2= 709.2.3         length= 2500  units= Ft Geometry= pp1/0_D1_AA_D1_Full_D1_Neutral_540_BC
+New Line.UG-10 Bus1= 727.2                Bus2= 729.2           length= 1000  units= Ft Geometry= 2/0_D1_AA_D1__D1_CN_D1_1/3_D1_N_n1/0_D1_HdCu_545
+
+//Overhead lines
+New Line.OH-5  Bus1= 709.2.3              Bus2= 711.2.3        length= 2500  units= Ft Geometry= pp#2_D1_ACSR_D1_7/1_515_BC
+New Line.OH-6  Bus1= 704717.4.5.6         Bus2= 727.1.2.3      length= 20000 units= Ft Geometry= pppn#1/0_D1_ACSR_D1_6/1_500_BAC
+New Line.OH-7  Bus1= 727.1.2.3            Bus2= 731.1.2.3      length= 17750 units= Ft Geometry= pppn#1/0_D1_ACSR_D1_6/1_500_BAC
+New Line.OH-8  Bus1= 731.1.2.3            Bus2= 735.1.2.3      length= 3000  units= Ft Geometry= pppn#1/0_D1_ACSR_D1_6/1_500_BAC
+New Line.OH-9  Bus1= 736.1.2.3            Bus2= 741.1.2.3      length= 10000 units= Ft Geometry= pppn#1/0_D1_ACSR_D1_6/1_500_BAC
+New Line.OH-10 Bus1= 741.1.2.3            Bus2= 742.1.2.3      length= 3000  units= Ft Geometry= pppn#1/0_D1_ACSR_D1_6/1_500_BAC
+New Line.OH-11 Bus1= 742.1.2.3            Bus2= 744.1.2.3      length= 30000 units= Ft Geometry= pppn#1/0_D1_ACSR_D1_6/1_500_BAC
+New Line.OH-12 Bus1= 745.1.2.3            Bus2= 746.1.2.3      length= 850   units= Ft Geometry= pppn#1/0_D1_ACSR_D1_6/1_500_BAC
+New Line.OH-13 Bus1= 746.1.2.3            Bus2= 747.1.2.3      length= 20000 units= Ft Geometry= pppn#1/0_D1_ACSR_D1_6/1_500_BAC
+New Line.OH-14 Bus1= 747.1.2.3            Bus2= 749.1.2.3      length= 520   units= Ft Geometry= pppn#1/0_D1_ACSR_D1_6/1_500_BAC
+New Line.OH-15 Bus1= 749.1.2.3            Bus2= 750.1.2.3      length= 23000 units= Ft Geometry= pppn#1/0_D1_ACSR_D1_6/1_500_BAC
+New Line.OH-16 Bus1= 749.1.2.3            Bus2= 752.1.2.3      length= 35000 units= Ft Geometry= pppn#1/0_D1_ACSR_D1_6/1_500_BAC
+New Line.OH-17 Bus1= 752.1.2.3            Bus2= 753.1.2.3      length= 500   units= Ft Geometry= pppn#1/0_D1_ACSR_D1_6/1_500_BAC
+New Line.OH-18 Bus1= 754.1.2.3            Bus2= 755.1.2.3      length= 5000  units= Ft Geometry= pppn#1/0_D1_ACSR_D1_6/1_500_BAC
+New Line.OH-19 Bus1= 753.1.2.3            Bus2= 757.1.2.3      length= 4900  units= Ft Geometry= pppn#1/0_D1_ACSR_D1_6/1_500_BAC
+New Line.OH-20 Bus1= 757.1                Bus2= 758.1          length= 1600  units= Ft Geometry= pn#2_D1_ACSR_D1_6/1_520
+New Line.OH-21 Bus1= 757.1.2.3            Bus2= 760.1.2.3      length= 5800  units= Ft Geometry= pppn#1/0_D1_ACSR_D1_6/1_500_BAC
+New Line.OH-22 Bus1= 760.1.2.3            Bus2= 765.1.2.3      length= 4500  units= Ft Geometry= pppn#1/0_D1_ACSR_D1_6/1_500_BAC
+New Line.OH-23 Bus1= 765.1.2.3            Bus2= 771.1.2.3      length= 860   units= Ft Geometry= ppp#1/0_D1_ACSR_D1_6/1_505_BAC
+New Line.OH-24 Bus1= 736.2.3              Bus2= 737.2.3        length= 17000 units= Ft Geometry= ppn#1/0_D1_ACSR_D1_6/1_510_BC
+New Line.OH-25 Bus1= 761.1.2.3            Bus2= 763.1.2.3      length= 2000  units= Ft Geometry= pppn#2_D1_ACSR_D1_6/1_500_ABC
+New Line.OH-26 Bus1= 767.1.2.3            Bus2= 768.1.2.3      length= 5200  units= Ft Geometry= ppp#2_D1_ACSR_D1_6/1_505_BAC
+
+// Sections
+New Line.SEC-1 Bus1= 720.1.2              Bus2= 724.1.2        length= 150   units= Ft Geometry= pp2/0_D1_-_D1_7_D1_Str_n#2/0_D1_ACSR_D1_6/1_555_AB
+New Line.SEC-2 Bus1= 724.1.2              Bus2= 725.1.2        length= 150   units= Ft Geometry= pp2/0_D1_-_D1_7_D1_Str_n#2/0_D1_ACSR_D1_6/1_555_AB
+New Line.SEC-3 Bus1= 725.1.2              Bus2= 726.1.2        length= 150   units= Ft Geometry= pp2/0_D1_-_D1_7_D1_Str_n#2/0_D1_ACSR_D1_6/1_555_AB                 
+New Line.SEC-4 Bus1= 720.1.2              Bus2= 721.1.2        length= 150   units= Ft Geometry= pp2/0_D1_-_D1_7_D1_Str_n#2/0_D1_ACSR_D1_6/1_555_AB
+New Line.SEC-5 Bus1= 721.1.2              Bus2= 722.1.2        length= 150   units= Ft Geometry= pp2/0_D1_-_D1_7_D1_Str_n#2/0_D1_ACSR_D1_6/1_555_AB
+New Line.SEC-6 Bus1= 722.1.2              Bus2= 723.1.2        length= 150   units= Ft Geometry= pp2/0_D1_-_D1_7_D1_Str_n#2_D1_ACSR_D1_7/1_555_AB
+New Line.SEC-7 Bus1= 732.1.2.3            Bus2= 733.1.2.3      length= 150   units= Ft Geometry= ppp2/0_D1_-_D1_7_D1_Str_n#2/0_D1_ACSR_D1_6/1_560_ABC
+New Line.SEC-8 Bus1= 733.1.2.3            Bus2= 734.1.2.3      length= 150   units= Ft Geometry= ppp2/0_D1_-_D1_7_D1_Str_n#2/0_D1_ACSR_D1_6/1_4/0_D1_Quadraplex_ABC

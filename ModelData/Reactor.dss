@@ -1,0 +1,30 @@
+// Reactor and switch control definitions for Comprehensive Test Feeder
+// Josimar Tello Maita
+// Oct-2018
+
+// ----- Switch 1
+New Reactor.SW-1 Phases=3 Bus1=741.1.2.3 Bus2=745.1.2.3 R=0.001 X=0
+
+// ----- Switch 2
+New Reactor.SW-2 Phases=3 Bus1=744.1.2.3 Bus2=757.1.2.3 R=0.001 X=0
+
+// ----- Switch 3
+New Reactor.SW-3 Phases=3 Bus1=703713.4.5.6 Bus2=703713.1.2.3 R=0.001 X=0
+
+// ----- Resistance of transformer T20
+New Reactor.T20_Zgp Phases=1 Bus1=765.1015  R=25 X=0    
+
+// ----- Resistance of transformer T21
+New Reactor.T21_Zgp Phases=1 Bus1=704717.1022   R=25 X=0
+
+// ----- Switch control action for switch 1
+New  SwtControl.forSW-1 SwitchedObj= Reactor.SW-1 Action=close
+
+// ----- Switch control action for switch 2
+New  SwtControl.forSW-2 SwitchedObj= Reactor.SW-2 Action=open
+
+// ----- Switch control action for switch 3
+New  SwtControl.forSW-3 SwitchedObj= Reactor.SW-3 Action=close
+
+// ----- Pruebas
+//New SwtControl.forLineOH-2 SwitchedObj=Line.OH-2 Action=open
